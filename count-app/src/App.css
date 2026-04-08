@@ -1,0 +1,17 @@
+
+#btn1, #btn2{
+  background-color: antiquewhite;
+  height: 40px;
+  width: 40px;
+  font-size: larger;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+span{
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  color: rgb(13, 14, 14);
+  font-weight: bolder;
+}
