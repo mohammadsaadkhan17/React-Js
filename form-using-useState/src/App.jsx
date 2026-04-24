@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="form-container">
-      <h1>Form Example</h1>
+      <h2>Form Example</h2>
 
       <form>
         {/* text input */}
@@ -57,12 +57,15 @@ function App() {
          onChange={handleChange}>
          </input>
         Radio:</label> */}
+
+        <label>Radio:</label>
         
 
         
         <label>
         <input type='radio'
          name='radio'
+         value='Option1'
          checked ={formData.radio ==='Option1'}
          onChange={handleChange}>
          </input>
@@ -73,6 +76,7 @@ function App() {
         <label>
         <input type='radio'
          name='radio'
+         value='Option2'
          checked ={formData.radio ==='Option2'}
          onChange={handleChange}>
          </input>
@@ -88,8 +92,8 @@ function App() {
 
 
         <option value="">Choose an option</option>
-        <option value="">Front-end</option>
-        <option value="">Back-end</option>
+        <option value="frontend">Front-end</option>
+        <option value="backend">Back-end</option>
         </select>
 
         <div className="form-data">
